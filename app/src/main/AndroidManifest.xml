@@ -12,6 +12,10 @@
         android:smallScreens="true"
         android:xlargeScreens="true" />
 
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="28" />
+
     <application
         android:name=".utils.AppController"
         android:allowBackup="true"
